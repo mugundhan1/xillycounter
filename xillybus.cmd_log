@@ -1,0 +1,2 @@
+vhdtdtfi -lib work E:/XillyLBI/ver1/xillybus.v -lang verilog -prj xillycounter -o xillybus.spl -module xillybus -template E:/Xilinx/14.5/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex5 xillybus.spl E:/xillycounter/xillybus.sym 

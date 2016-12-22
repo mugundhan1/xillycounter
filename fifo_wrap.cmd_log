@@ -1,0 +1,2 @@
+vhdtdtfi -lib work E:/XillyLBI/ver1/fifo_wrap.v -lang verilog -prj xillycounter -o fifo_wrap.spl -module fifo_wrap -template E:/Xilinx/14.5/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family virtex5 fifo_wrap.spl E:/xillycounter/fifo_wrap.sym 
